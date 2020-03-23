@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_10dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dimen_40dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <com.example.poc_openaccount.common.ui_compenents.AppTextview
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/headlinetext"
+        android:text="@string/welcome_guest"
+        android:textColor="@color/navy_blue"
+        android:layout_marginTop="@dimen/dimen_30dp"
+        android:textSize="@dimen/dimen_30dp"
+        android:layout_gravity="center"
+        />
+    <com.example.poc_openaccount.common.ui_compenents.AppTextview
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/headlinetext2"
+        android:layout_marginStart="@dimen/dimen_20dp"
+        android:layout_marginEnd="@dimen/dimen_10dp"
+        android:gravity="center"
+        android:text="@string/you_can_choose_any_option_to_open_account_With_us"
+        android:textColor="@color/navy_blue"
+        android:textSize="@dimen/dimen_20dp"
+        />
+    <com.example.poc_openaccount.common.ui_compenents.AppButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:text="@string/scan_driving_license"
+        android:layout_marginStart="@dimen/dimen_20dp"
+        android:layout_marginEnd="@dimen/dimen_20dp"
+        android:layout_marginTop="@dimen/dimen_30dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_dark"
+        app:buttonType="PRIMARY_SHORT_BUTTON"
+        />
+    <com.example.poc_openaccount.common.ui_compenents.AppButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:layout_margin="@dimen/dimen_20dp"
+        android:text="@string/scan_passport"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_dark"
+        app:buttonType="PRIMARY_SHORT_BUTTON"
+        />
+    <com.example.poc_openaccount.common.ui_compenents.AppButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     android:layout_marginTop="@dimen/dimen_10dp"
+        android:layout_marginEnd="@dimen/dimen_20dp"
+        android:layout_marginStart="@dimen/dimen_20dp"
+        android:enabled="true"
+        android:text="@string/manually"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_dark"
+        app:buttonType="PRIMARY_SHORT_BUTTON"
+        />
+
+</LinearLayout>

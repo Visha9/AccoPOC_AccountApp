@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Button">
+        <attr name="buttonType" format="enum">
+            <enum name="PRIMARY_BUTTON" value="0" />
+            <enum name="PRIMARY_SHORT_BUTTON" value="1" />
+        </attr>
+<!--        <attr name="FontStyle" />-->
+    </declare-styleable>
+</resources>

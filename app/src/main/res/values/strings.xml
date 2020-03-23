@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">POC_OpenAccount</string>
+    <string name="scan_driving_license">Scan Driving License</string>
+    <string name="scan_passport">Scan Passport</string>
+    <string name="manually">Manually</string>
+    <string name="welcome_guest">Welcome Guest,</string>
+    <string name="you_can_choose_any_option_to_open_account_With_us">You can choose any option to open account with us</string>
+</resources>
